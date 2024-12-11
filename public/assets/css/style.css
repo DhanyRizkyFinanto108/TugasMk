@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: orange ;
+  }
+  
+  section {
+    padding: 100px 200px;
+  }
+  
+  
+  header {
+    z-index: 999;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+  }
+  
+  header .brand {
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .navigasi {
+    position: relative;
+  }
+  
+  header .navigasi a {
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  header .navigasi a:hover {
+    color: black;
+  }
+  
+  body {
+    min-height: 110vh;
+  }
+  
+  
+  .Home {
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    color: rgb(255, 255, 255)55, 255, 255;
+    font-size: 2em;
+    margin-top: 10rem;
+  }
+  
+  .Home>img {
+    border-radius: 10%;
+    height: 20rem;
+    position: absolute;
+    left: 60rem;
+    bottom: 25rem;
+  }
+
+  .btns {
+    background-color: black;
+    color: gold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+  
+  .btns:hover {
+    background: white;
+    color: black;
+  }
+
+  .Hoby {
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content:flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+   .content .card {
+    width: 100px;
+    margin: 15px;
+  }
+  
+   .content .img-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+   .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+   .content .img-card img:hover {
+    transform: scale(1.2);
+  }
+  
+  .About {
+    min-height: 150vh;
+  }
+  
+  .About .content {
+    position: relative;
+    margin-left: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .About .content .col-left {
+    position: relative;
+    width: 30%;
+  }
+  
+  .About .content .col-right {
+    position: relative;
+    width: 65%;
+  }
+  
+  .About .content .col-left .img-card {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+  }
+  
+  .About .content .col-left .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    align-items: center;
+  }
+  
+  ul {
+    padding-left: 25px;
+  }
+  
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section-title {
+    position: relative;
+    color: black;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  .Contact {
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .Contact .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .Contact .content .card {
+    width: 100px;
+    margin: 15px;
+  }
+  
+  .Contact .content .img-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .Contact .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+  .Contact .content .img-card img:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .footer a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .komplit {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lari {
+    border-radius: 20%;
+  }
+
+.sepak h2{
+    font-size: 20px;
+}
+.Badminton h2{
+    font-size: 20px;
+}
+.lari h2{
+    font-size: 20px;
+}
+.sepak {
+    margin: 20px;
+}
+.Badminton {
+    margin: 20px;
+}
+.lari {
+    margin: 20px;
+}
